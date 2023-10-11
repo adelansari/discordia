@@ -8,9 +8,9 @@ const mainFont = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Rediscord - Reimaginated Discord app",
+  title: "Discordia - Discord Front-end",
   description:
-    "A Rediscord is an open-source reimaginated discord in NextJS + TailwindCSS, built by igorpenaque.com",
+    "Discordia is an app built with NextJS and TailwindCSS",
 };
 
 export default function RootLayout({
