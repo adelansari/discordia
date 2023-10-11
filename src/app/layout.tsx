@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Open_Sans } from "next/font/google";
 import CommonLayout from "@/components/layout/common-layout";
 import "./globals.css";
+import Head from "next/head";
+
 
 const mainFont = Open_Sans({
   subsets: ["latin"],
@@ -18,6 +20,9 @@ export default function RootLayout({
 }: React.PropsWithChildren) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </Head>
       <body className={mainFont.className + " dark"}>
         <CommonLayout />
         {children}
