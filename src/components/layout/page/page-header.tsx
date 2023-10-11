@@ -34,7 +34,7 @@ export default function PageHeader({ children }: React.PropsWithChildren) {
           <BsInboxFill fontSize={20} />
         </PageHeaderButton>
         <PageHeaderButton
-          href="https://github.com/igorm84/rediscord"
+          href="https://github.com/adelansari/discordia"
           target="_blank"
         >
           <BsGithub fontSize={20} />
