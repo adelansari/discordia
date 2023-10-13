@@ -38,7 +38,7 @@ export const generateRandomFakeChannels = (length: number): ListedDMChannel[] =>
 export const generateRandomFakeServers = (length: number): ListedServer[] =>
   Array.from({ length }, (_, i) => ({
     id: generateRandomDiscordID(),
-    name: faker.animal.cow(),
+    name: faker.animal.cat(),
     photo: faker.image.urlPicsumPhotos({
       width: 64,
       height: 64,

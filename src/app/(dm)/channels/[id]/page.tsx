@@ -4,10 +4,10 @@ import Divider from "@/components/ui/divider";
 import { User } from "@/lib/entities/user";
 import { delay } from "@/lib/utils";
 import { MOCK_DELAY, getRandomUserById } from "@/lib/utils/mock";
-import { GiCow } from "react-icons/gi";
+import { GiCat } from "react-icons/gi";
 
 const getData = async (id: string): Promise<{ user: User }> => {
-    
+
   // Generate fake user for testing
   const user = getRandomUserById(id);
   user.id = id;
@@ -41,7 +41,7 @@ export default async function ChannelPage({
       </PageHeader>
       <PageContent>
         <span className="text-sm text-gray-300">Currently working here...</span>
-        <GiCow fontSize={42} className="mt-2 animate-bounce" />
+        <GiCat fontSize={42} className="mt-2 animate-bounce" />
       </PageContent>
     </Page>
   );

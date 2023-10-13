@@ -1,11 +1,11 @@
 import Link from "next/link";
-import { GiCow } from "react-icons/gi";
+import { GiCat } from "react-icons/gi"; f
 
 export default function NotFound() {
   return (
     <div className="flex h-screen w-full flex-col items-center justify-center">
       <div className="text-gray-300">
-        <GiCow fontSize={62} />
+        <GiCat fontSize={62} />
       </div>
       <h1 className="text-2xl text-gray-400">Not found</h1>
       <h2 className="text-lg text-gray-500">
