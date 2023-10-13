@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { GiCat } from "react-icons/gi"; f
+import { GiCat } from "react-icons/gi";
 
 export default function NotFound() {
   return (
